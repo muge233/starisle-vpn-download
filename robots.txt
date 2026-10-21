@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://muge233.github.io/starisle-vpn-download/sitemap.xml

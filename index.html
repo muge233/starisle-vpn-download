@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; object-src 'none'; frame-src 'none'; base-uri 'self'; form-action 'none'"
+    />
+    <meta
+      name="description"
+      content="星屿 VPN —— 一个免费、简单的 Windows 单节点 VPN 客户端，使用 Cloudflare WARP 全球网络。"
+    />
+    <meta property="og:title" content="星屿 VPN · 免费全球连接" />
+    <meta
+      property="og:description"
+      content="一片星屿，连接世界。下载免费的 Windows VPN 客户端。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://muge233.github.io/starisle-vpn-download/" />
+    <meta
+      property="og:image"
+      content="https://muge233.github.io/starisle-vpn-download/assets/app-preview.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#0b100d" />
+    <link rel="canonical" href="https://muge233.github.io/starisle-vpn-download/" />
+    <title>星屿 VPN · 免费全球连接</title>
+    <link rel="icon" type="image/png" href="assets/icon.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-glow glow-left"></div>
+    <div class="page-glow glow-right"></div>
+
+    <header class="site-header" id="top">
+      <a class="brand" href="#top" aria-label="星屿 VPN 首页">
+        <img src="assets/icon.png" alt="" />
+        <span class="brand-copy"><strong>星屿</strong><small>STARISLE</small></span>
+      </a>
+      <nav class="site-nav" aria-label="页面导航">
+        <a href="#features">特点</a>
+        <a href="#install">安装</a>
+        <a href="#faq">问答</a>
+      </nav>
+      <a
+        class="header-download"
+        href="https://github.com/muge233/starisle-vpn-download/releases/latest/download/StarisleVPN-Windows-x64.zip"
+      >
+        <svg viewBox="0 0 20 20"><path d="M10 2v10m0 0 4-4m-4 4L6 8M4 17h12" /></svg>
+        下载 Windows 版
+      </a>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <div class="hero-kicker"><i></i> STARISLE VPN · FOR WINDOWS</div>
+          <h1>一片星屿<br /><span>连接世界。</span></h1>
+          <p class="hero-description">
+            免费、轻量、只有一个全球节点。点击开关，让 Cloudflare WARP
+            自动为你选择距离最近的国外出口。
+          </p>
+          <div class="hero-actions">
+            <a
+              class="primary-download"
+              href="https://github.com/muge233/starisle-vpn-download/releases/latest/download/StarisleVPN-Windows-x64.zip"
+            >
+              <svg viewBox="0 0 24 24"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 20h14" /></svg>
+              免费下载
+              <span>Windows 10 / 11 · x64</span>
+            </a>
+            <a class="text-link" href="#install">查看安装方法 <span>↓</span></a>
+          </div>
+          <div class="hero-badges">
+            <span><i class="check"></i> 无试用期</span>
+            <span><i class="check"></i> 无需账号</span>
+            <span><i class="check"></i> 自动节点</span>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="星屿 VPN 应用界面预览">
+          <div class="map-rings ring-one"></div>
+          <div class="map-rings ring-two"></div>
+          <div class="map-rings ring-three"></div>
+          <div class="map-line line-one"></div>
+          <div class="map-line line-two"></div>
+          <div class="map-node node-origin"><span></span></div>
+          <div class="map-node node-destination"><span></span></div>
+
+          <div class="app-shell">
+            <img
+              class="app-screenshot"
+              src="assets/app-preview.png"
+              alt="星屿 VPN 已连接洛杉矶节点，网络健康，延迟约 241 毫秒"
+            />
+          </div>
+
+          <div class="floating-card floating-status">
+            <span class="signal"><i></i><i></i><i></i></span>
+            <div><strong>网络健康</strong><small>MASQUE · TLS 1.3</small></div>
+          </div>
+          <div class="floating-card floating-location">
+            <span class="pin"><i></i></span>
+            <div><small>当前出口</small><strong>洛杉矶 · LAX</strong></div>
+          </div>
+          <div class="floating-card floating-speed">
+            <strong>209<span>ms</span></strong>
+            <small>实时延迟</small>
+          </div>
+        </div>
+      </section>
+
+      <section class="trust-strip reveal" aria-label="主要特点">
+        <div><strong>FREE</strong><span>Cloudflare 免费网络</span></div>
+        <div><strong>ONE</strong><span>一个智能全球节点</span></div>
+        <div><strong>AUTO</strong><span>断线自动重连</span></div>
+        <div><strong>SAFE</strong><span>系统级加密隧道</span></div>
+      </section>
+
+      <section class="section features" id="features">
+        <div class="section-heading reveal">
+          <p class="eyebrow">SIMPLE BY DESIGN</p>
+          <h2>刚刚好的 VPN。</h2>
+          <p>没有复杂节点，没有套餐弹窗。打开、连接、离开。</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card reveal">
+            <span class="feature-number">01</span>
+            <div class="feature-icon">
+              <svg viewBox="0 0 28 28"><path d="M14 3v22M3 14h22M6.2 6.2l15.6 15.6M21.8 6.2 6.2 21.8" /><circle cx="14" cy="14" r="8" /></svg>
+            </div>
+            <h3>全球智能节点</h3>
+            <p>连接时由 Cloudflare 自动选择更合适的边缘城市，通常为洛杉矶西海岸出口。</p>
+            <span class="feature-meta">AUTO SELECT · LAX</span>
+          </article>
+          <article class="feature-card reveal">
+            <span class="feature-number">02</span>
+            <div class="feature-icon">
+              <svg viewBox="0 0 28 28"><path d="M14 3.5 24 8v6.5c0 5.6-3.9 9.3-10 11.2-6.1-1.9-10-5.6-10-11.2V8l10-4.5Z" /><path d="m9.5 14 3 3 6-7" /></svg>
+            </div>
+            <h3>系统级隧道</h3>
+            <p>网络流量通过 Windows 隧道传输，不止浏览器，支持的应用也能自动使用 VPN。</p>
+            <span class="feature-meta">WARP · MASQUE</span>
+          </article>
+          <article class="feature-card reveal">
+            <span class="feature-number">03</span>
+            <div class="feature-icon">
+              <svg viewBox="0 0 28 28"><path d="M5 21a8 8 0 0 1 3-14 9 9 0 0 1 17 5 5 5 0 0 1-1 10H7" /><path d="M9 13h10" /></svg>
+            </div>
+            <h3>保持在线</h3>
+            <p>默认开启启动连接和断线重连。关闭窗口后仍可在系统托盘保持 VPN 运行。</p>
+            <span class="feature-meta">AUTO CONNECT · RECONNECT</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="node-section reveal">
+        <div class="node-copy">
+          <p class="eyebrow">ONE NODE · ZERO CLUTTER</p>
+          <h2>不用挑选。<br />让节点来找你。</h2>
+          <p>
+            星屿只保留一个“全球智能节点”。Cloudflare 会根据你的位置和网络质量动态选择出口，
+            界面会直接显示当前城市、延迟、流量和隧道健康状态。
+          </p>
+          <div class="node-specs">
+            <div><span>网络提供</span><strong>Cloudflare WARP</strong></div>
+            <div><span>隧道协议</span><strong>MASQUE / HTTPS</strong></div>
+            <div><span>安全层</span><strong>TLS 1.3 + PQ</strong></div>
+          </div>
+        </div>
+        <div class="node-map">
+          <div class="world-dots"></div>
+          <svg viewBox="0 0 520 310" aria-hidden="true">
+            <defs>
+              <linearGradient id="arc-gradient" x1="0" x2="1">
+                <stop stop-color="#baff69" stop-opacity=".12" />
+                <stop offset=".55" stop-color="#baff69" />
+                <stop offset="1" stop-color="#5fd6ba" stop-opacity=".95" />
+              </linearGradient>
+              <filter id="node-glow"><feGaussianBlur stdDeviation="5" /></filter>
+            </defs>
+            <path class="land-shape" d="M52 90c42-45 130-59 182-26 31 20 11 45-20 56-26 9-33 33-56 49-26 18-62 9-82-14-22-24-40-42-24-65Z" />
+            <path class="land-shape" d="M86 180c30-8 62 8 71 39 9 32-19 62-31 82-8 13-21 8-25-11-7-31-24-53-15-110Z" />
+            <path class="land-shape" d="M249 77c30-20 88-16 117 7 23 18 500 48 35 71-5 23-34 22-52 6-22-20-61-4-89-18-25-13-37-46-11-66Z" />
+            <path class="land-shape" d="M281 156c31-13 67 4 78 34 10 28-3 58-23 96-17 33-34 35-45 10-14-31-14-67-25-97-10-27-9-35 15-43Z" />
+            <path class="land-shape" d="M406 228c27-19 69-11 89 12 19 21 1 51-27 64-31 14-66 9-81-17-15-25-1-44 19-59Z" />
+            <path class="route-arc" d="M123 166C195 56 348 65 415 166" />
+            <circle cx="123" cy="166" r="5" class="node-dot origin" />
+            <circle cx="415" cy="166" r="5" class="node-dot destination" filter="url(#node-glow)" />
+            <circle cx="415" cy="166" r="18" class="node-ring" />
+          </svg>
+          <span class="map-label label-home">YOUR DEVICE</span>
+          <span class="map-label label-node">LOS ANGELES<br /><i>LAX EDGE</i></span>
+        </div>
+      </section>
+
+      <section class="section download-section" id="download">
+        <div class="download-panel reveal">
+          <div class="download-copy">
+            <p class="eyebrow">READY TO CONNECT</p>
+            <h2>下载星屿 VPN</h2>
+            <p>解压后直接运行。体积约 158 MB，适用于 64 位 Windows 10 和 Windows 11。</p>
+          </div>
+          <div class="download-actions">
+            <a
+              class="primary-download large"
+              href="https://github.com/muge233/starisle-vpn-download/releases/latest/download/StarisleVPN-Windows-x64.zip"
+            >
+              <svg viewBox="0 0 24 24"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 20h14" /></svg>
+              下载 Windows 版
+              <span>ZIP · 64-BIT</span>
+            </a>
+            <button type="button" class="copy-link" id="copy-link">
+              <svg viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2" /><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2" /></svg>
+              <span>复制分享链接</span>
+            </button>
+          </div>
+          <div class="download-note">
+            <span>免安装</span>
+            <span>自动重连</span>
+            <span>中文界面</span>
+            <span>无需注册账号</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section install" id="install">
+        <div class="section-heading reveal">
+          <p class="eyebrow">GET STARTED</p>
+          <h2>三步开始使用</h2>
+        </div>
+        <div class="install-steps">
+          <article class="step reveal">
+            <span class="step-number">01</span>
+            <div>
+              <h3>准备官方组件</h3>
+              <p>星屿使用 Cloudflare WARP 系统服务。先安装一次 Windows 版 Cloudflare WARP。</p>
+              <a href="https://developers.cloudflare.com/warp-client/get-started/windows/" target="_blank" rel="noopener">打开官方安装页 ↗</a>
+            </div>
+          </article>
+          <article class="step reveal">
+            <span class="step-number">02</span>
+            <div>
+              <h3>下载并解压</h3>
+              <p>下载页面顶部的 ZIP 文件。请先完整解压，再运行里面的 StarisleVPN.exe。</p>
+            </div>
+          </article>
+          <article class="step reveal">
+            <span class="step-number">03</span>
+            <div>
+              <h3>点击连接</h3>
+              <p>点击或向右拖动中间开关。连接成功后即可看到出口城市、延迟和网络健康状态。</p>
+            </div>
+          </article>
+        </div>
+        <div class="requirements reveal">
+          <div><span>系统</span><strong>Windows 10 / 11</strong></div>
+          <div><span>架构</span><strong>x64</strong></div>
+          <div><span>依赖</span><strong>Cloudflare WARP</strong></div>
+          <div><span>版本</span><strong>1.0.0</strong></div>
+        </div>
+      </section>
+
+      <section class="section faq" id="faq">
+        <div class="section-heading reveal">
+          <p class="eyebrow">QUESTIONS</p>
+          <h2>常见问题</h2>
+        </div>
+        <div class="faq-list reveal">
+          <details>
+            <summary>真的免费吗？<span>+</span></summary>
+            <p>当前版本使用 Cloudflare WARP 的免费消费者服务，不需要购买星屿套餐。未来的可用性和免费政策取决于 Cloudflare。</p>
+          </details>
+          <details>
+            <summary>为什么不直接联网下载就能用？<span>+</span></summary>
+            <p>星屿是连接界面，实际隧道由 Cloudflare WARP 建立。为了让所有 Windows 应用都能通过 VPN 联网，需要先安装官方 WARP 系统组件。</p>
+          </details>
+          <details>
+            <summary>节点在哪里？<span>+</span></summary>
+            <p>没有固定节点列表。Cloudflare 会自动选择较合适的出口，当前测试通常连接到美国洛杉矶，实际位置和延迟会随网络变化。</p>
+          </details>
+          <details>
+            <summary>Windows 提示“未知发布者”怎么办？<span>+</span></summary>
+            <p>当前程序没有购买商业代码签名证书。确认文件来自本页面后，可以选择“更多信息 → 仍要运行”。</p>
+          </details>
+          <details>
+            <summary>为什么有时连接不上？<span>+</span></summary>
+            <p>免费公共网络可能受到运营商、地区或 Cloudflare 服务状态影响。请确认 Cloudflare WARP 服务已安装并运行，然后重试。</p>
+          </details>
+        </div>
+      </section>
+
+      <section class="closing reveal">
+        <img src="assets/icon.png" alt="" />
+        <p class="eyebrow">THE OPEN SKY</p>
+        <h2>从一片星屿出发。</h2>
+        <p>一个节点，足够抵达更远的地方。</p>
+        <a class="text-link" href="#download">免费下载 <span>↑</span></a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-brand">
+        <img src="assets/icon.png" alt="" />
+        <span><strong>星屿 VPN</strong><small>STARISLE</small></span>
+      </div>
+      <p>使用 Cloudflare WARP 提供网络连接。免费服务的可用性可能随网络环境变化。</p>
+      <div class="footer-links">
+        <a href="https://www.cloudflare.com/application-services/products/warp/" target="_blank" rel="noopener">Cloudflare WARP</a>
+        <a href="使用说明.txt" target="_blank">使用说明</a>
+        <a href="#top">回到顶部</a>
+      </div>
+    </footer>
+
+    <div class="toast" id="toast" aria-live="polite"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
